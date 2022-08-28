@@ -13,7 +13,7 @@ else {
     console.log("both numbers are equal");
 }
 // Program No. 02
-// 1. Write a ts program to find maximum between Three numbers.
+// 2. Write a ts program to find maximum between Three numbers.
 // Enter Three Numbers:
 var num3 = 10;
 var num4 = 20;
@@ -43,7 +43,7 @@ else {
     console.log("num6 is zero");
 }
 // Program Node. 04
-// Write a ts program to check whether a number is divisible by 5 and 11 or not.
+// 4. Write a ts program to check whether a number is divisible by 5 and 11 or not.
 var numSet = 110;
 if (numSet % 5 == 0 && numSet % 11 == 0) {
     console.log("the enter number is divisible by 5 and 11", numSet);
@@ -56,4 +56,14 @@ else if (numSet % 11 == 0) {
 }
 else {
     console.log("this number is not divisibl on them");
+}
+// Program No. 5
+// 5. Write a ts program to check whether a number is even or odd.
+var num = prompt("Enter a number");
+var tempNum = parseInt(num) % 2;
+if (tempNum == 0) {
+    console.log("num is even");
+}
+else {
+    console.log("num is odd");
 }
