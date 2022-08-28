@@ -36,3 +36,37 @@ else if (num5>num3 && num5>num2){
 else{
     console.log("All three numbers are equal");
 }
+
+// Program No. 03
+// 3. Write a ts program to check whether a number is negative, positive or zero.
+
+var num6:number = 1
+
+if (num6 < 0) {
+    console.log("num6 is Negative");
+}
+else if (num6 > 0) {
+    console.log("num6 is Positive");
+}
+else{
+    console.log("num6 is zero");
+}
+
+// Program Node. 04
+// Write a ts program to check whether a number is divisible by 5 and 11 or not.
+
+var numSet = 110;
+
+if (numSet % 5 == 0 && numSet % 11 == 0) {
+    console.log("the enter number is divisible by 5 and 11", numSet);
+}
+else if (numSet % 5 == 0) {
+    console.log("this number only divisible on 5");
+}
+else if (numSet % 11 == 0) {
+    console.log("this number only divisible on 11");
+}
+else {
+    console.log("this number is not divisibl on them");
+    
+}
